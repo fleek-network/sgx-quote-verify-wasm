@@ -459,7 +459,7 @@ dependencies = [
 [[package]]
 name = "ra-verify"
 version = "0.1.0"
-source = "git+ssh://git@github.com/fleek-network/fleek-sgx.git?branch=main#a3d0628ef33ed6721e2720769c60b9aed4f68039"
+source = "git+https://github.com/fleek-network/fleek-sgx.git?branch=main#a3d0628ef33ed6721e2720769c60b9aed4f68039"
 dependencies = [
  "anyhow",
  "asn1",

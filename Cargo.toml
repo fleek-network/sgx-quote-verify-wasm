@@ -8,15 +8,13 @@ crate-type = ["cdylib"]
 
 [dependencies]
 wasm-bindgen = "0.2"
-#ra-verify = { path = "../../fleek-sgx/lib/ra-verify/" }
-ra-verify = { git = "ssh://git@github.com/fleek-network/fleek-sgx.git", branch = "main" }
+ra-verify = { git = "https://github.com/fleek-network/fleek-sgx.git", branch = "main" }
 serde_json = "1"
 anyhow = "1"
 x509-cert = { version = "0.2.5" }
 hex = "0.4"
 urlencoding = "2.1"
 chrono = "0.4"
-
 console_error_panic_hook = "0.1.7"
 
 
